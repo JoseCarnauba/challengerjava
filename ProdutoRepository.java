@@ -1,7 +1,4 @@
-package br.com.fiap.challenger.produto;
+package br.com.fiap.challenger.controller;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface ProdutoRepository extends JpaRepository<Produto,Long> {
-
+public class ProdutoRepository {
 }
